@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    background-color: rgb(24, 24, 23);
+    flex-direction: column;
+    align-items: center;
+    
+}
+#main_board{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    cursor: pointer;
+    
+
+}
+.cell{
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    font-size: 2em;
+    font-family: cursive;
+
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    color: aqua;
+}
+.right-border{
+    border-right: 0.3em solid red;   
+}
+.bottom-border{
+    border-bottom: 0.3em solid red;   
+}
+.winner{
+    font-size: 40px;
+    color: blue;
+}
+.restart{
+    font-family: cursive;
+    padding: 10px;
+    background-color: gray;
+    color: black;
+    width: 100px;
+    box-shadow: 10px red;
+    
+}
+.btn{
+    margin: 50px;
+}
+/* .btn:hover {background-color: #3e8e41} */
+.win_x {
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+    font-weight: 700;
+}
+
